@@ -1,10 +1,11 @@
-module gorm.io/driver/sqlite
+module github.com/relvinhas/gorm-sqlcipher
 
-go 1.20
+go 1.21.3
 
 require (
 	github.com/mattn/go-sqlite3 v1.14.17
-	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
+	github.com/mutecomm/go-sqlcipher/v4 v4.4.2
+	gorm.io/gorm v1.25.5
 )
 
 require (
